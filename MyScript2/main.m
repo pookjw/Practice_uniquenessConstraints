@@ -33,18 +33,17 @@ int main(int argc, const char * argv[]) {
         
         NSManagedObjectContext *context = [persistentContainer viewContext];
         
+        char foo[4096];
+        
         Entity *entity_1 = [[Entity alloc] initWithContext:context];
-        entity_1.firstName = @"1";
-        entity_1.secondName = @"2";
-        entity_1.myNumber = 3;
+        entity_1.bytes = [[NSData alloc] initWithBytes:foo length:sizeof(foo)];
         
         NSError * _Nullable error = nil;
         [context save:&error];
         assert(error == nil);
         
         Entity *entity_2 = [[Entity alloc] initWithContext:context];
-        entity_2.firstName = @"1";
-        entity_2.secondName = @"3";
+        entity_2.bytes = [[NSData alloc] initWithBytes:foo length:sizeof(foo)];
         
         [context save:&error];
         assert(error == nil);

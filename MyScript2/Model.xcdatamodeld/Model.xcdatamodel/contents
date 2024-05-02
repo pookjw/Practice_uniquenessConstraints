@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757.1" systemVersion="23F5074a" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class">
+        <attribute name="bytes" optional="YES" attributeType="Binary"/>
         <attribute name="firstName" optional="YES" attributeType="String"/>
         <attribute name="myNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="secondName" optional="YES" attributeType="String"/>
         <uniquenessConstraints>
             <uniquenessConstraint>
-                <constraint value="myNumber"/>
+                <constraint value="bytes"/>
             </uniquenessConstraint>
         </uniquenessConstraints>
     </entity>

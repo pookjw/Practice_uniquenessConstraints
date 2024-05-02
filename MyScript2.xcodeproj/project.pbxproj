@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F2DECCB2BE3DE25003AD6B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2DECCA2BE3DE25003AD6B9 /* main.m */; };
-		4F2DECD32BE3DE35003AD6B9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F2DECD12BE3DE35003AD6B9 /* Model.xcdatamodeld */; };
+		4F2DECD62BE3E3C7003AD6B9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F2DECD42BE3E3C7003AD6B9 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		4F2DECC72BE3DE25003AD6B9 /* MyScript2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyScript2; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2DECCA2BE3DE25003AD6B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F2DECD22BE3DE35003AD6B9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4F2DECD52BE3E3C7003AD6B9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 		4F2DECC92BE3DE25003AD6B9 /* MyScript2 */ = {
 			isa = PBXGroup;
 			children = (
+				4F2DECD42BE3E3C7003AD6B9 /* Model.xcdatamodeld */,
 				4F2DECCA2BE3DE25003AD6B9 /* main.m */,
-				4F2DECD12BE3DE35003AD6B9 /* Model.xcdatamodeld */,
 			);
 			path = MyScript2;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2DECCB2BE3DE25003AD6B9 /* main.m in Sources */,
-				4F2DECD32BE3DE35003AD6B9 /* Model.xcdatamodeld in Sources */,
+				4F2DECD62BE3E3C7003AD6B9 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +289,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4F2DECD12BE3DE35003AD6B9 /* Model.xcdatamodeld */ = {
+		4F2DECD42BE3E3C7003AD6B9 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4F2DECD22BE3DE35003AD6B9 /* Model.xcdatamodel */,
+				4F2DECD52BE3E3C7003AD6B9 /* Model.xcdatamodel */,
 			);
-			currentVersion = 4F2DECD22BE3DE35003AD6B9 /* Model.xcdatamodel */;
+			currentVersion = 4F2DECD52BE3E3C7003AD6B9 /* Model.xcdatamodel */;
 			name = Model.xcdatamodeld;
-			path = /Users/pookjw/Desktop/MyScript2/MyScript2/Model.xcdatamodeld;
+			path = /Users/pookjw/git/Practice_uniquenessConstraints/MyScript2/Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
